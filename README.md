@@ -1,15 +1,35 @@
-# 📊 Customer Churn Analysis using RFM
+# 📊 Customer Churn Analysis 
+
+---
+
+## 💼 Business Problem
+
+Businesses often struggle to identify customers who are likely to churn, leading to significant revenue loss.
+
+This project analyzes customer transaction data to:
+
+* Identify high-value customers
+* Detect churn risk early
+* Enable data-driven retention strategies
+
+---
 
 ## 🚀 Project Overview
 
-This project performs an end-to-end customer churn analysis using **Python, SQL, and Power BI** to understand customer behavior and identify churn patterns.
+This is an end-to-end customer churn analysis project using **Python, SQL, and Power BI**.
 
-The main objective is to help businesses:
+The project focuses on understanding customer behavior using **RFM (Recency, Frequency, Monetary)** analysis and segmenting customers based on their engagement and value.
 
-* Identify high-value customers
-* Detect customers likely to churn
-* Analyze revenue contribution across segments
-* Take data-driven retention decisions
+---
+
+## 🔄 Project Workflow
+
+1. Data Cleaning using **Python (Pandas)**
+2. SQL Analysis for business insights
+3. RFM Feature Engineering
+4. Customer Segmentation
+5. Churn Identification
+6. Data Visualization using **Matplotlib & Power BI**
 
 ---
 
@@ -18,39 +38,40 @@ The main objective is to help businesses:
 * RFM Analysis (Recency, Frequency, Monetary)
 * Customer Segmentation
 * Churn Detection
-* Data Aggregation & SQL Queries
+* SQL Aggregations & Queries
 * Data Visualization
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠️ Tools & Technologies
 
-* Python (Pandas, Matplotlib)
-* SQL (SQLite)
-* Power BI
+* **Python** (Pandas, Matplotlib)
+* **SQL** (SQLite)
+* **Power BI**
 
 ---
 
-## 📁 Dataset
-The dataset used in this project is not included due to size limitations.
+## 📂 Dataset
+
+The dataset is not included due to size limitations.
 
 You can download it from:
 https://archive.ics.uci.edu/ml/datasets/Online+Retail
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-customer-churn-analysis-rfm/
-│
-├── data/
+customer-churn-analysis/
+
+│── data/
 │   └── online_retail.csv
-│
-├── notebooks/
+
+│── notebooks/
 │   └── customer_churn_analysis.ipynb
-│
-├── images/
+
+│── images/
 │   ├── dashboard.png
 │   ├── customer_segmentation.png
 │   ├── avg_revenue_by_segment.png
@@ -61,8 +82,8 @@ customer-churn-analysis-rfm/
 │   ├── sql_top_customers.png
 │   ├── sql_revenue_country.png
 │   ├── sql_avg_order.png
-│
-└── README.md
+
+│── README.md
 ```
 
 ---
@@ -75,62 +96,62 @@ customer-churn-analysis-rfm/
 
 ## 📌 Customer Segmentation
 
-![Segmentation](images/customer_segmentation.png)
+![Customer Segmentation](images/customer_segmentation.png)
 
 ---
 
-## 📈 Revenue by Segment
+## 📈 Revenue Analysis
 
-![Revenue](images/revenue_by_segment.png)
+![Revenue by Segment](images/revenue_by_segment.png)
 
----
-
-## 📊 Customer Distribution
-
-![Distribution](images/customer_distribution.png)
+![Average Revenue by Segment](images/avg_revenue_by_segment.png)
 
 ---
 
-## 📉 Churn Distribution
+## 👥 Customer Distribution
 
-![Churn](images/churn_distribution.png)
-
----
-
-## 🔍 Customer Behavior (RFM Analysis)
-
-![RFM](images/rfm_scatter.png)
+![Customer Distribution](images/customer_distribution.png)
 
 ---
 
-## 📊 Average Revenue per Segment
+## ⚠️ Churn Analysis
 
-![Average Revenue](images/avg_revenue_by_segment.png)
+![Churn Distribution](images/churn_distribution.png)
+
+---
+
+## 🔍 RFM Analysis
+
+![RFM Scatter](images/rfm_scatter.png)
 
 ---
 
 ## 🧾 SQL Analysis
 
-### 🔹 Top Customers by Revenue
+![Top Customers](images/sql_top_customers.png)
 
-![SQL1](images/sql_top_customers.png)
+![Revenue by Country](images/sql_revenue_country.png)
 
-### 🔹 Revenue by Country
-
-![SQL2](images/sql_revenue_country.png)
-
-### 🔹 Average Order Value per Customer
-
-![SQL3](images/sql_avg_order.png)
+![Average Order Value](images/sql_avg_order.png)
 
 ---
 
 ## 🎯 Key Insights
 
-* Active customers contribute the highest revenue
-* Approximately **33.4% churn rate** indicates strong need for retention strategies
-* High-value churn customers represent significant revenue loss risk
+* Active customers contribute the highest revenue and should be retained strategically
+* A churn rate of ~33.4% indicates significant customer drop-off risk
+* High-value churn customers represent major revenue loss
 * Customers with high recency and low frequency are more likely to churn
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository
+2. Download dataset from the link above
+3. Open the notebook in Jupyter or Google Colab
+4. Run all cells step-by-step
+5. View outputs and visualizations
 
 ---
 
@@ -140,14 +161,14 @@ This project demonstrates how customer segmentation using RFM analysis can help 
 
 * Improve customer retention
 * Increase lifetime value
-* Make data-driven business decisions
+* Make data-driven decisions
 
 ---
 
-## 🔗 Future Improvements
+## 🔮 Future Improvements
 
-* Add machine learning model for churn prediction
-* Deploy dashboard using web applications
+* Build a machine learning model for churn prediction
+* Deploy dashboard using a web application
 * Automate data pipeline
 
 ---
