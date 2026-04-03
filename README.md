@@ -126,9 +126,15 @@ customer-churn-analysis/
 
 ---
 
-## 📊 Dashboard
+## 📊 Visualization Summary
 
-![Dashboard](images/dashboard.png)
+The interactive Power BI dashboard highlights customer segmentation, churn distribution, and revenue contribution across segments.
+
+Key components include:
+• Customer segmentation breakdown  
+• Revenue contribution by segment  
+• Churn distribution analysis  
+• RFM-based behavioral patterns  
 
 ---
 
