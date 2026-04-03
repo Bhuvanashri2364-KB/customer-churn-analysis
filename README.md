@@ -6,9 +6,7 @@
 
 ![Dashboard](images/dashboard.png)
 ![Customer Segmentation](images/customer_segmentation.png)
-
 ---
-
 ## 📌 Executive Summary
 
 This project focuses on identifying customer churn risk and revenue loss using transactional data and RFM segmentation to drive retention strategies.
