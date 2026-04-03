@@ -79,7 +79,9 @@ Key visuals include:
 ## 📌 Customer Segmentation
 
 ![Customer Segmentation](images/customer_segmentation.png)
+
 Insight:
+
 This visualization highlights different customer segments based on RFM scores. High-value segments contribute significantly to revenue but may show early signs of churn, requiring targeted retention strategies.
 ---
 
@@ -88,7 +90,9 @@ This visualization highlights different customer segments based on RFM scores. H
 ![Revenue by Segment](images/revenue_by_segment.png)
 
 ![Average Revenue by Segment](images/avg_revenue_by_segment.png)
+
 Insight:
+
 Revenue is heavily concentrated among a few key segments. While high-value customers generate the most revenue, some segments show declining engagement, indicating potential revenue risk.
 ---
 
@@ -96,20 +100,25 @@ Revenue is heavily concentrated among a few key segments. While high-value custo
 
 ![Customer Distribution](images/customer_distribution.png)
 Insight:
+
 This chart shows how customers are distributed across segments. A higher proportion of low-engagement customers suggests potential churn risk and opportunity for re-engagement campaigns.
 ---
 
 ## ⚠️ Churn Analysis & Behavior Patterns
 
 ![Churn Distribution](images/churn_distribution.png)
+
 Insight:
+
 Churn is more prevalent among customers with low purchase frequency and long inactivity periods. This confirms behavioral patterns as strong indicators of churn risk.
 ---
 
 ## 🔍 RFM Analysis
 
 ![RFM Scatter](images/rfm_scatter.png)
+
 Insight:
+
 The RFM scatter plot helps identify clusters of high-value and at-risk customers. Customers with low recency and frequency are more likely to churn, while frequent buyers show higher retention.
 ---
 
@@ -120,7 +129,9 @@ The RFM scatter plot helps identify clusters of high-value and at-risk customers
 ![Revenue by Country](images/sql_revenue_country.png)
 
 ![Average Order Value](images/sql_avg_order.png)
+
 Insight:
+
 SQL analysis validates key findings by identifying top revenue-generating customers, regional performance differences, and average order value trends, supporting data-driven decision-making.
 
 ---
