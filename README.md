@@ -69,6 +69,15 @@ Key visuals include:
 
 ---
 
+## 📊 Dashboard Breakdown
+
+- KPI Cards → Show overall churn rate, revenue, and total customers
+- Segment Distribution → Identify high-risk customer groups
+- Revenue by Segment → Understand business impact of each segment
+- Behavioral Trends → Detect patterns leading to churn
+
+---
+
 ## 🎯 Key Insights
 
 - High churn rate (~33%) indicates significant revenue leakage and urgent need for retention strategies  
