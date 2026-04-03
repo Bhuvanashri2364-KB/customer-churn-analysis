@@ -22,6 +22,19 @@ The project focuses on understanding customer behavior using **RFM (Recency, Fre
 
 ---
 
+## 🔍 Churn Definition
+
+In this project, a customer is considered **churned** if they have not made a purchase in the last **90 days**.
+
+This threshold is chosen based on customer purchase behavior patterns observed in the dataset.
+
+- Active Customer → Recent purchase within 90 days  
+- Churned Customer → No purchase in last 90+ days  
+
+This approach reflects real-world business scenarios where inactivity signals potential churn risk.
+
+---
+
 ## 🔄 Project Workflow
 
 1. Data Cleaning using **Python (Pandas)**
@@ -138,10 +151,31 @@ customer-churn-analysis/
 
 ## 🎯 Key Insights
 
-* Active customers contribute the highest revenue and should be retained strategically
-* A churn rate of ~33.4% indicates significant customer drop-off risk
-* High-value churn customers represent major revenue loss
-* Customers with high recency and low frequency are more likely to churn
+- A churn rate of ~33.4% indicates a significant drop-off in customer retention, requiring immediate intervention.
+- High-value churn customers contribute disproportionately to revenue loss, making them the top priority for retention strategies.
+- Customers with high recency (inactive for long periods) and low purchase frequency are at the highest risk of churn.
+- Active customers generate the highest revenue, highlighting the importance of maintaining engagement.
+- A large portion of customers fall into low-frequency segments, indicating potential for upselling and engagement campaigns.
+
+---
+
+## 🧠 Retention Strategy Recommendations
+
+Based on the analysis:
+
+- 🎯 High-Value Churn Customers  
+  → Offer personalized discounts and targeted re-engagement campaigns  
+
+- 🔁 At-Risk Customers (high recency, low frequency)  
+  → Send reminders, emails, and incentives to encourage repeat purchases  
+
+- 💎 Loyal Customers  
+  → Introduce loyalty programs and exclusive rewards to maintain engagement  
+
+- 📉 Low-Value Customers  
+  → Use low-cost automated marketing strategies to improve conversion  
+
+These strategies can help reduce churn and increase customer lifetime value.
 
 ---
 
